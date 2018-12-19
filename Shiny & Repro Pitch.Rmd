@@ -1,0 +1,35 @@
+---
+title: "Shiny App & Reproducible Pitch"
+author: "Puja Singh"
+date: "December 12, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+This presentation contain documentation on Barchart using old mtcars data. It shows gear on X -axis and mpf on Y -axis with dropdown menu, you can select both the x-axis and y-axis value and make barchart according to that.
+
+
+## Data Used
+```{r, echo = TRUE}
+summary(mtcars)
+```
+
+## Shiny Files
+
+The application is build using ShinyPackage and the sourse code is in bellow files.
+
+- ui.R
+- server.R
+
+
+you can find both these files in Github repo. <https://github.com/b4puja/Dev-Data-Product>
+
+## Summary
+
+The application is drawing histogram of criminal arest in X- axis and its frequency in Y-axis. The graph is shown <https://pujaplot.shinyapps.io/assi2/> 
+
